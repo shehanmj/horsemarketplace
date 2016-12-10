@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+	<head>
+			<meta charset="utf-8">
+		<title>Horse Marketplace</title>
+		
+	 
+      <!--Import bootstrap.css-->
+      <link type="text/css" rel="stylesheet" href="css/bootstrap.css"  />
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>	
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+	
+	<!-- get jquery-->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+	<!--Import bootstrap.js-->
+      <script type="text/javascript" src="js/bootstrap.js"></script>
+	</head>
+	
+	<body>
+		
+		<div class="row">
+		<div class="row container col-sm-12" >
+			
+			<video playsinline autoplay muted loop  id="bgvid">
+    			<source src="horse1.mp4" type="video/mp4">
+	    	</video>
+		<div class="col-sm-4  search1">
+			<form class=" form search1 input-group-lg " >
+				<h5>Search for available horses</h5><br>	
+				<div class="breeds">
+    				<select id="breed" class="form-control"><option>Choose a breed</option></select>
+    			</div>	
+  				<div class="location">
+					<input id="zip" type="text" class="form-control" placeholder="Zip Code">
+          		</div>
+				<div>
+				<input type="button" class="btn btn-primary submit" name="Submit" value="Submit"></input>
+				<input type="button" class="btn btn-primary reset" name="reset" value="Reset"></input>
+				</div>
+				<p>Currently all available horse listings are powered by <a href="https://www.petfinder.com">Petfinder.com</a>. However, our goal is to migrate to our own database of listings as soon as possible.</p>
+			</form>
+			
+		</div>
+		
+		<div class="col-sm-6 blurb"><h1>The Horse Marketplace</h1><article>The Horse Marketplace is a great place to find your next equine partner. 
+		Thank you for visiting!</article></div>
+		</div>
+		<div class=" col-sm-2"></div>
+		</div>
+		<div class="row table-responsive">
+			<div class="col-sm-12 results">
+				
+			</div><footer>&copy; 2016 The Horse Marketplace</footer>
+		</div>
+		
+        	
+	</body>	
+</html>
